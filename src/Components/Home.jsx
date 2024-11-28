@@ -1,8 +1,11 @@
 import React from 'react'
+import ListaJogos from './ListaJogos'
 
 const Home = () => {
   return (
-    <section className='container'>Home</section>
+    <section className='container'>
+      <ListaJogos />
+    </section>
   )
 }
 
