@@ -3,8 +3,11 @@ import styles from './ListaJogos.module.css'
 import Voltar from '../Assets/angle-small-left.svg?react';
 import Avancar from '../Assets/angle-small-right.svg?react';
 
+const tabelasJogos = [];
+
 const ListaJogos = () => {
   return (
+    <div>
     <div className={styles.guia}>
       <button id='btn-voltar' className={styles.btnVoltar}><Voltar />
       </button>
@@ -12,6 +15,10 @@ const ListaJogos = () => {
       <button id='btn-avancar' className={styles.btnAvancar}>
       <Avancar />
       </button>
+    </div>
+    <ul id='tabelas-jogos'>
+
+    </ul>
     </div>
   )
 }
