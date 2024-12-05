@@ -3,8 +3,13 @@ import styles from './Header.module.css'
 import { Link } from "react-router-dom";
 import Menu from '../Assets/menu-burger.svg?react';
 import Fechar from '../Assets/cross.svg?react';
+import useMedia from "../Hooks/useMedia";
 
 const Header = () => {
+
+  const mobile = useMedia('(max-width: 40rem)');
+  const [mobileMenu, setMobileMenu] = React.useState(false);
+
   return (
   <header className={styles.header}>
     <button className={styles.btnMenu}>
