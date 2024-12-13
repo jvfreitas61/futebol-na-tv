@@ -36,6 +36,22 @@
   padding: 10px;
 }
 
+.btnAvancar:hover,
+.btnVoltar:hover{
+  box-shadow: 0px 0px 5px var(--primary-color);
+}
+
 .tituloGuia{
   color: var(--primary-color);
+}
+
+.tabelaJogos{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px){
+  .tabelaJogos{
+    display: block;
+  }
 }
