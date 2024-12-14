@@ -4,9 +4,7 @@ import Voltar from '../Assets/angle-small-left.svg?react';
 import Avancar from '../Assets/angle-small-right.svg?react';
 import Jogo from './Jogo';
 
-const tabelasJogos = [];
-
-const ListaJogos = () => {
+const ListaJogos = () => {    
   return (
     <div>
     <div className={styles.guia}>
@@ -18,7 +16,6 @@ const ListaJogos = () => {
       </button>
     </div>
     <ul id='tabelaJogos' className={styles.tabelaJogos}>
-      <Jogo/>
       <Jogo/>
     </ul>
     </div>

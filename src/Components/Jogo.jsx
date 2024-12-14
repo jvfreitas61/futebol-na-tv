@@ -3,7 +3,9 @@ import styles from './Jogo.module.css'
 import Trophy from '../Assets/trophy.svg'
 import Screen from '../Assets/screen.svg'
 
-const Jogo = () => {
+const Jogo = ({dataJogo, horaJogo}) => {
+  
+
   return (
     <div className={styles.jogo}>
       <div className={styles.jogoHeader}>
@@ -12,8 +14,8 @@ const Jogo = () => {
       </div>
       <div className={styles.infoJogo}>
         <div className={styles.agendaJogo}>
-          <p>14/09/24</p>
-          <p>16:00</p>
+          <p>{dataJogo}</p>
+          <p>{horaJogo}</p>
         </div>
         <div className={styles.confronto}>
           <div className={styles.timeMandante}>
