@@ -16,7 +16,7 @@ const ListaJogos = () => {
       </button>
     </div>
     <ul id='tabelaJogos' className={styles.tabelaJogos}>
-      <Jogo/>
+      <Jogo dataJogo={'12/08/24'} horaJogo={'12:30'}/>
     </ul>
     </div>
   )

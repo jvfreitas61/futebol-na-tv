@@ -9,7 +9,7 @@ const Jogo = ({dataJogo, horaJogo}) => {
   return (
     <div className={styles.jogo}>
       <div className={styles.jogoHeader}>
-        <span className={styles.logoCompetition}><img src={Trophy} alt="Logo da competição" /></span>
+        <span className={styles.logoCompetition}><img src="https://upload.wikimedia.org/wikipedia/pt/7/75/Campeonato_Brasileiro_de_Futebol_de_2024_-_S%C3%A9rie_A.png" alt="Logo da competição" /></span>
         <p className={styles.tituloJogo}>CAMPEONATO BRASILEIRO</p>
       </div>
       <div className={styles.infoJogo}>

@@ -50,7 +50,18 @@ p{
 }
 
 .logoCompetition{
-  padding: 5px;
+  width: 30px;
+  height: 30px;
+  padding: 2.5px;
+  text-align: center;
+  align-content: center;
+  
+}
+
+.logoCompetition img{
+  max-height: 25px;
+  max-width: 25px;
+  
 }
 
 .tituloJogo{
