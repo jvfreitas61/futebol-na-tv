@@ -3,8 +3,12 @@ import styles from './ListaJogos.module.css'
 import Voltar from '../Assets/angle-small-left.svg?react';
 import Avancar from '../Assets/angle-small-right.svg?react';
 import Jogo from './Jogo';
+import Jogos from '../json/jogos.json'
 
-const ListaJogos = () => {    
+console.log(Jogos)
+
+const ListaJogos = () => {
+  
   return (
     <div>
     <div className={styles.guia}>
