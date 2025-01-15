@@ -1,8 +1,9 @@
 {
     "jogos":[
         {
-            "dataJogo": "14/09",
-            "estadio": "Premier League",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Premier League",
+            "logoCampeonato": "https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png",
             "horaJogo": "08:30",
             "mandante": {
                 "nome": "Southampton",
@@ -24,8 +25,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Alemão",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Campeonato Alemão",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/pt/f/f9/Bundesliga_logo_%282017%29.png",
             "horaJogo": "10:30",
             "mandante": {
                 "nome": "Hoffenheim",
@@ -47,72 +49,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Premier League",
-            "horaJogo": "11:00",
-            "mandante": {
-                "nome": "Manchester City",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/240px-Manchester_City_FC_badge.svg.png"
-            },
-            "visitante": {
-                "nome": "Brentford",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Brentford_FC_crest.svg/240px-Brentford_FC_crest.svg.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "ESPN",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-            },
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Premier League",
-            "horaJogo": "11:00",
-            "mandante": {
-                "nome": "Liverpool",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/176px-Liverpool_FC.svg.png"
-            },
-            "visitante": {
-                "nome": "Nottingham Forest",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Nottingham_Forest_F.C._logo.svg/113px-Nottingham_Forest_F.C._logo.svg.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Italiano",
-            "horaJogo": "13:00",
-            "mandante": {
-                "nome": "Empoli",
-                "escudo": "https://upload.wikimedia.org/wikipedia/pt/2/29/EmpoliFC_Logo2014.png"
-            },
-            "visitante": {
-                "nome": "Juventus",
-                "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg/152px-Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "ESPN",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-            },
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Alemão",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Campeonato Alemão",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/pt/f/f9/Bundesliga_logo_%282017%29.png",
             "horaJogo": "13:30",
             "mandante": {
                 "nome": "Holstein Kiel",
@@ -137,31 +76,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Premier League",
-            "horaJogo": "13:30",
-            "mandante": {
-                "nome": "Aston Villa",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aston_Villa_FC_new_crest.svg/272px-Aston_Villa_FC_new_crest.svg.png"
-            },
-            "visitante": {
-                "nome": "Everton",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/235px-Everton_FC_logo.svg.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "ESPN",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-            },
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Saudita",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Campeonato Saudita",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Saudi_Pro_League_Logo.svg/239px-Saudi_Pro_League_Logo.svg.png",
             "horaJogo": "15:00",
             "mandante": {
                 "nome": "Al Riyadh",
@@ -182,31 +99,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Argentino",
-            "horaJogo": "15:00",
-            "mandante": {
-                "nome": "San Lorenzo",
-                "escudo": "assets/img/logos/times/libertadores/san-lorenzo.png"
-            },
-            "visitante": {
-                "nome": "Vélez Sarsfield",
-                "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg/210px-Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "ESPN",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-            },
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Italiano",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Campeonato Italiano",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/pt/e/e9/Serie_A_Enilive_logo.png",
             "horaJogo": "15:45",
             "mandante": {
                 "nome": "Milan",
@@ -228,26 +123,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Brasileirão Série A",
-            "horaJogo": "16:00",
-            "mandante": {
-                "nome": "Atlético-GO",
-                "escudo": "assets/img/logos/times/brasil/atletico-go.png"
-            },
-            "visitante": {
-                "nome": "Vitória",
-                "escudo": "assets/img/logos/times/brasil/vitoria.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "Premiere",
-                "link": "https://premiere.globo.com/",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "LaLiga",
+            "dataJogo": "14/09/2024",
+            "campeonato": "LaLiga",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/LaLiga_EA_Sports_2023_Vertical_Logo.svg/314px-LaLiga_EA_Sports_2023_Vertical_Logo.svg.png",
             "horaJogo": "16:00",
             "mandante": {
                 "nome": "Real Sociedad",
@@ -269,26 +147,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Premier League",
-            "horaJogo": "16:00",
-            "mandante": {
-                "nome": "Bournemouth",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg"
-            },
-            "visitante": {
-                "nome": "Chelsea",
-                "escudo": "https://upload.wikimedia.org/wikipedia/pt/c/cc/Chelsea_FC.svg"
-            },
-            "transmissao": [{
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Francês",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Campeonato Francês",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ligue_1_2024_Logo.png/190px-Ligue_1_2024_Logo.png",
             "horaJogo": "16:00",
             "mandante": {
                 "nome": "Paris Saint-Germain",
@@ -305,56 +166,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Brasileirão Série B",
-            "horaJogo": "17:00",
-            "mandante": {
-                "nome": "Brusque",
-                "escudo": "assets/img/logos/times/brasil-b/brusque.png"
-            },
-            "visitante": {
-                "nome": "Vila Nova",
-                "escudo": "assets/img/logos/times/brasil-b/vila-nova.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "Canal GOAT",
-                "link": "https://www.youtube.com/@canalgoatbr",
-                "logoCanal": "assets/img/logos/canais/goat.png"
-            },{
-                "nomeCanal": "Premiere",
-                "link": "https://premiere.globo.com/",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Brasileirão Série B",
-            "horaJogo": "17:00",
-            "mandante": {
-                "nome": "Paysandu",
-                "escudo": "assets/img/logos/times/brasil-b/paysandu.png"
-            },
-            "visitante": {
-                "nome": "Guarani",
-                "escudo": "assets/img/logos/times/brasil-b/guarani.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "TV Brasil",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TV_Brasil_logo_2023.svg/320px-TV_Brasil_logo_2023.svg.png"
-            }, {
-            "nomeCanal": "Canal GOAT",
-            "link": "https://www.youtube.com/@canalgoatbr",
-            "logoCanal": "assets/img/logos/canais/goat.png"
-        },{
-            "nomeCanal": "Premiere",
-            "link": "https://premiere.globo.com/",
-            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
-        }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "Campeonato Argentino",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Campeonato Argentino",
+            "logoCampeonato": "data:image/png;base64,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",
             "horaJogo": "17:30",
             "mandante": {
                 "nome": "Racing",
@@ -376,30 +190,9 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Brasileirão Série A",
-            "horaJogo": "18:30",
-            "mandante": {
-                "nome": "Athletico-PR",
-                "escudo": "assets/img/logos/times/brasil/athletico-pr.png"
-            },
-            "visitante": {
-                "nome": "Fortaleza",
-                "escudo": "assets/img/logos/times/brasil/fortaleza.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "Rede Furacão",
-                "link": "https://www.redefuracao.com.br/",
-                "logoCanal": "assets/img/logos/canais/rede-furacao.png"
-            },{
-                "nomeCanal": "CazéTV",
-                "link": "https://www.youtube.com/@CazeTV/streams",
-                "logoCanal": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09",
-            "estadio": "MLS",
+            "dataJogo": "14/09/2024",
+            "campeonato": "MLS",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/227px-MLS_crest_logo_RGB_gradient.svg.png",
             "horaJogo": "20:30",
             "mandante": {
                 "nome": "Inter Miami",
@@ -416,16 +209,17 @@
             }]
         },
         {
-            "dataJogo": "14/09",
-            "estadio": "Brasileirão Série A",
+            "dataJogo": "14/09/2024",
+            "campeonato": "Brasileirão Série A",
+            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/pt/7/75/Campeonato_Brasileiro_de_Futebol_de_2024_-_S%C3%A9rie_A.png",
             "horaJogo": "21:00",
             "mandante": {
                 "nome": "Botafogo",
-                "escudo": "assets/img/logos/times/brasil/botafogo.png"
+                "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/213px-Botafogo_de_Futebol_e_Regatas_logo.svg.png"
             },
             "visitante": {
                 "nome": "Corinthians",
-                "escudo": "assets/img/logos/times/brasil/corinthians.png"
+                "escudo": "https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png"
             },
             "transmissao": [{
                 "nomeCanal": "SporTV",

@@ -75,13 +75,13 @@ p{
   text-align: center;
   align-content: center;
   padding: 5px;
-  border-right: 0.5px solid rgb(240, 240, 240);
+  border-left: 0.5px solid rgb(240, 240, 240);
 }
 
 .infoJogo{
   display: flex;
   margin: 5px;
-  
+  justify-content: space-between;
 }
 
 .confronto{

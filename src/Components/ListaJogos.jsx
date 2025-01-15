@@ -4,16 +4,11 @@ import Voltar from '../Assets/angle-small-left.svg?react';
 import Avancar from '../Assets/angle-small-right.svg?react';
 import Jogo from './Jogo';
 
-/*const ListaJogos = () => {
-  
-  
-}*/
-
 function ListaJogos(){
   const [jogos, setJogos] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:5000/jogos', {
+    fetch('http://localhost:3000/jogos', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -26,6 +21,8 @@ function ListaJogos(){
     })
     .catch(err => console.log(err))
   },[])
+
+
 
   return (
     <div>
@@ -40,14 +37,14 @@ function ListaJogos(){
     <ul id='tabelaJogos' className={styles.tabelaJogos}>
     {jogos.length > 0 && 
       jogos.map((jogos) => (
-        <Jogo dataJogo={jogos.dataJogo} horaJogo={jogos.horaJogo} campeonato={jogos.estadio} nomeMandante={jogos.mandante.nome} nomeVisitante={jogos.visitante.nome} logoMandante={jogos.mandante.escudo} logoVisitante={jogos.visitante.escudo}/>
+        <Jogo dataJogo={jogos.dataJogo} horaJogo={jogos.horaJogo} campeonato={jogos.campeonato} logoCampeonato={jogos.logoCampeonato} nomeMandante={jogos.mandante.nome} nomeVisitante={jogos.visitante.nome} logoMandante={jogos.mandante.escudo} logoVisitante={jogos.visitante.escudo}>{jogos.transmissao.map((canais) => (
+          
+          <Jogo nomeCanal={canais.nomeCanal} logoCanal={canais.logoCanal}
+          />
+        ))}</Jogo>
       ))}
     </ul>
     </div>
   )
 }
-
-/*
-
-*/
 export default ListaJogos
