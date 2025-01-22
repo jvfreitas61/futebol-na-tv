@@ -1,8 +1,12 @@
 import React from 'react'
+import ListaJogos from '../ListaJogos'
+
 
 const BrasileiroSerieA = () => {
   return (
-    <section className='container'>BrasileiroSerieA</section>
+    <section className='container'>
+      <ListaJogos />
+    </section>
   )
 }
 

@@ -15,37 +15,11 @@
             },
             "transmissao": [{
                 "nomeCanal": "ESPN",
-                "link": "#",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
             },
             {
                 "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }]
-        },
-        {
-            "dataJogo": "14/09/2024",
-            "campeonato": "Campeonato Alemão",
-            "logoCampeonato": "https://upload.wikimedia.org/wikipedia/pt/f/f9/Bundesliga_logo_%282017%29.png",
-            "horaJogo": "10:30",
-            "mandante": {
-                "nome": "Hoffenheim",
-                "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Logo_TSG_Hoffenheim.svg/201px-Logo_TSG_Hoffenheim.svg.png"
-            },
-            "visitante": {
-                "nome": "Bayer Leverkusen",
-                "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/310px-Bayer_04_Leverkusen_logo.svg.png"
-            },
-            "transmissao": [{
-                "nomeCanal": "OneFootball",
-                "link": "https://onefootball.com/en/tv-hub",
-                "logoCanal": "assets/img/logos/canais/OneFootball.png"
-            },
-            {
-                "nomeCanal": "CazéTV",
-                "link": "https://www.youtube.com/@CazeTV/streams",
-                "logoCanal": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png"
             }]
         },
         {
@@ -63,16 +37,13 @@
             },
             "transmissao": [{
                 "nomeCanal": "RedeTV!",
-                "link": "#",
-                "logoCanal": "assets/img/logos/canais/redetv.png"
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png"
             }, {
                 "nomeCanal": "CazéTV",
-                "link": "https://www.youtube.com/@CazeTV/streams",
                 "logoCanal": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png"
             }, {
                 "nomeCanal": "OneFootball",
-                "link": "https://onefootball.com/en/tv-hub",
-                "logoCanal": "assets/img/logos/canais/OneFootball.png"
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/OFLOGO.png/320px-OFLOGO.png"
             }]
         },
         {
@@ -90,11 +61,9 @@
             },
             "transmissao": [{
                 "nomeCanal": "Canal GOAT",
-                "link": "https://www.youtube.com/@canalgoatbr",
-                "logoCanal": "assets/img/logos/canais/goat.png"
+                "logoCanal": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t39.30808-6/359810910_137395246054562_4790992836430339405_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=IRvPSgmV5qUQ7kNvgERIXUT&_nc_oc=AdjFkSfN2PzMj2YrEQLU3mjfL2qmCmjH6-dlcK38s2kbnNC0lH5h5zYgs4vjICiwEWE9LsQpiGBWcUyKIFOQRpQI&_nc_zt=23&_nc_ht=scontent.fbsb4-1.fna&_nc_gid=AQPGpcvEDAeQGfNQXIKnc7S&oh=00_AYDHe0o1-KyIX7asxgS8oMDGeAwNmms8ECv7BK5eP6yblw&oe=67962042"
             },{
                 "nomeCanal": "BandSports",
-                "link": "#",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/BandSports_logo.svg/320px-BandSports_logo.svg.png"
             }]
         },
@@ -113,12 +82,10 @@
             },
             "transmissao": [{
                 "nomeCanal": "ESPN",
-                "link": "#",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
             },
             {
                 "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
             }]
         },
@@ -137,12 +104,10 @@
             },
             "transmissao": [{
                 "nomeCanal": "ESPN",
-                "link": "#",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
             },
             {
                 "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
             }]
         },
@@ -161,7 +126,6 @@
             },
             "transmissao": [{
                 "nomeCanal": "CazéTV",
-                "link": "https://www.youtube.com/@CazeTV/streams",
                 "logoCanal": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png"
             }]
         },
@@ -180,12 +144,10 @@
             },
             "transmissao": [{
                 "nomeCanal": "ESPN",
-                "link": "#",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
             },
             {
                 "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
             }]
         },
@@ -204,7 +166,6 @@
             },
             "transmissao": [{
                 "nomeCanal": "Apple TV",
-                "link": "https://tv.apple.com/br?l=en-GB",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/320px-Apple_TV_Plus_Logo.svg.png"
             }]
         },
@@ -223,12 +184,10 @@
             },
             "transmissao": [{
                 "nomeCanal": "SporTV",
-                "link": "#",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
             },
             {
                 "nomeCanal": "Premiere",
-                "link": "https://premiere.globo.com/",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
             }]
         }

@@ -3,7 +3,15 @@ import styles from './Jogo.module.css'
 import Trophy from '../Assets/trophy.svg'
 import Screen from '../Assets/screen.svg'
 
-const Jogo = ({dataJogo, horaJogo, campeonato, logoCampeonato, nomeMandante, nomeVisitante, logoMandante, logoVisitante, nomeCanal, logoCanal}) => {
+const Jogo = ({
+  logoCampeonato = '',
+  campeonato = '',
+  dataJogo = '', 
+  horaJogo = '',
+  mandante = [],
+  visitante = [],
+  transmissao = [],
+  }) => {
     
   return (
     <div className={styles.jogo}>
@@ -15,12 +23,12 @@ const Jogo = ({dataJogo, horaJogo, campeonato, logoCampeonato, nomeMandante, nom
         
         <div className={styles.confronto}>
           <div className={styles.timeMandante}>
-            <span className={styles.logoTime}><img src={logoMandante} alt={nomeMandante} /></span>
-            <span className={styles.nomeTime}>{nomeMandante}</span>
+            <span className={styles.logoTime}><img src={mandante.escudo} alt={mandante.nome} /></span>
+            <span className={styles.nomeTime}>{mandante.nome}</span>
           </div>
           <div className={styles.timeVisitante}>
-            <span className={styles.logoTime}><img src={logoVisitante} alt={nomeVisitante} /></span>
-            <span className={styles.nomeTime}>{nomeVisitante}</span>
+            <span className={styles.logoTime}><img src={visitante.escudo} alt={visitante.nome} /></span>
+            <span className={styles.nomeTime}>{visitante.nome}</span>
           </div>
         </div>
         <div className={styles.agendaJogo}>
@@ -31,9 +39,12 @@ const Jogo = ({dataJogo, horaJogo, campeonato, logoCampeonato, nomeMandante, nom
       <div className={styles.transmissao}>
         <img className={styles.logoScreen} src={Screen} alt="" />
         <ul className={styles.canais}>
-          <li>
-            <img className={styles.logoTransmissao} src={logoCanal} alt={nomeCanal} />
-          </li>
+          {transmissao.map((canal, index) => (
+              <li key={index}>
+                <img className={styles.logoTransmissao} src={canal.logoCanal} alt={canal.nomeCanal} title={canal.nomeCanal} />
+              </li>
+          ))
+          }
         </ul>
       </div>
     </div>
