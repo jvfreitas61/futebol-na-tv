@@ -1,12 +1,10 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
-import Home from './Components/Home';
-import Footer from './Components/Footer';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import BrasileiroSerieA from './Components/Competitions/BrasileiroSerieA';
-import CopaDoBrasil from './Components/Competitions/CopaDoBrasil';
-import Libertadores from './Components/Competitions/libertadores';
+import Home from './Pages/Home';
+import Campeonato from './Pages/Campeonato';
+import PaginaJogo from './Pages/PaginaJogo';
 
 const App = () => {
   return <div>
@@ -14,11 +12,9 @@ const App = () => {
     <Header />
     <Routes>
       <Route path='/' element={<Home />}/>
-      <Route path='/brasileiro-serie-a' element={<BrasileiroSerieA />}/>
-      <Route path='/copa-do-brasil' element={<CopaDoBrasil />}/>
-      <Route path='/libertadores' element={<Libertadores />}/>
+      <Route path='/campeonato/:id' element={<Campeonato />}/>
+      <Route path='/jogo/:id' element={<PaginaJogo />}/>
     </Routes>
-    <Footer />
     </BrowserRouter>
   </div>;
 };

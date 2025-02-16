@@ -1,13 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import styles from './ListaJogos.module.css'
-import Voltar from '../Assets/angle-small-left.svg?react';
-import Avancar from '../Assets/angle-small-right.svg?react';
 import Jogo from './Jogo';
+import GuiaJogos from './GuiaJogos';
 
-function ListaJogos(){
-  const [jogos, setJogos] = useState([])
+function ListaJogos({itemsArray}){
+  /*const [jogos, setJogos] = useState([])*/
+  
+  const dataAtual = new Date();
+  console.log(dataAtual);
+  const dia = dataAtual.getDate();
+  console.log(dia)
+  const mes = dataAtual.getMonth()+1;
+  console.log(mes)
+  const ano = dataAtual.getFullYear();
+  console.log(ano)
 
-  useEffect(() => {
+  /*useEffect(() => {
     fetch('http://localhost:3000/jogos', {
       method: 'GET',
       headers: {
@@ -20,23 +28,20 @@ function ListaJogos(){
       setJogos(data)
     })
     .catch(err => console.log(err))
-  },[])
+  },[])*/
 
   return (
     <div>
-    <div className={styles.guia}>
-      <button id='btn-voltar' className={styles.btnVoltar}><Voltar />
-      </button>
-      <h1 className={styles.tituloGuia}>HOJE, 14 de setembro de 2024</h1>
-      <button id='btn-avancar' className={styles.btnAvancar}>
-      <Avancar />
-      </button>
-    </div>
+    <GuiaJogos />
+    <div className={styles.containerJogos}>
     <ul id='tabelaJogos' className={styles.tabelaJogos}>
-      {jogos.map((jogo) => (
+      {itemsArray
+      .map((jogo) => (
         <Jogo {...jogo} key={jogo.id}/>
       ))}
     </ul>
+    </div>
+    
     </div>
   )
 }

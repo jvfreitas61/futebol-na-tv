@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 :root {
-  --primary-color: rgb(11, 111, 223);
+  --azul: rgb(11, 111, 223);
+  --azul-marinho: rgb(39,58,91);
+  --laranja: rgb(255,127,39);
 }
 
 * {
@@ -12,13 +14,10 @@
   font-family: 'Open sans', sans-serif;
 }
 
-html{
-  margin-top: 97px;
-}
-
 body{
-  background-color: lightgray;
+  background-color: #202020;
   height: 100vh;
+  padding-top: 97px;
 }
 
 a{
@@ -30,14 +29,15 @@ li{
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1400px;
+  height: 100vh;
   margin: auto;
-  background: #f5f5f5;
+  background: #202020;
   padding: 20px;
 }
 
 @media (max-width: 800px){
-  html{
-    margin-top: 55px;
+  body{
+    padding-top: 55px;
   }
 }
