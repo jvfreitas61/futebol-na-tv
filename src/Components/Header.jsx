@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import { Link, useLocation } from "react-router-dom";
 import Menu from '../Assets/menu-burger.svg?react';
 import useMedia from "../Hooks/useMedia";
+import {campeonatos} from "../database/campeonatos"
 
 const Header = () => {
 
@@ -13,7 +14,7 @@ const Header = () => {
     setMobileMenu(false);
   }, [pathname]);
 
-  
+  console.log(campeonatos);
   
 
   return (
@@ -49,10 +50,10 @@ const Header = () => {
     <h1>GUIA DE JOGOS NA TV</h1>    
     <nav className={`${mobile ? styles.navMobile : styles.nav} ${mobileMenu && styles.navMobileAtivo}`}>
       <Link to="/" end className={`${mobile ? styles.linkMobile : styles.link}`}>JOGOS DE HOJE</Link>
-      <Link to="/campeonato/:id" className={`${mobile ? styles.linkMobile : styles.link}`}>BRASILEIRÃO SERIE A</Link>
-      <Link to="/campeonato/:id" className={`${mobile ? styles.linkMobile : styles.link}`}>COPA DO BRASIL</Link>
-      <Link to="/campeonato/:id" className={`${mobile ? styles.linkMobile : styles.link}`}>COPA LIBERTADORES</Link>
-      <Link to="/campeonato/:id" className={`${mobile ? styles.linkMobile : styles.link}`}>COPA SUL-AMERICANA</Link>
+      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>BRASILEIRÃO SERIE A</Link>
+      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>COPA DO BRASIL</Link>
+      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>COPA LIBERTADORES</Link>
+      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>COPA SUL-AMERICANA</Link>
     </nav>
   </header>
   </>
