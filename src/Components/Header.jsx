@@ -14,9 +14,6 @@ const Header = () => {
     setMobileMenu(false);
   }, [pathname]);
 
-  console.log(campeonatos);
-  
-
   return (
     <>
   <header className={styles.header}>
@@ -50,10 +47,7 @@ const Header = () => {
     <h1>GUIA DE JOGOS NA TV</h1>    
     <nav className={`${mobile ? styles.navMobile : styles.nav} ${mobileMenu && styles.navMobileAtivo}`}>
       <Link to="/" end className={`${mobile ? styles.linkMobile : styles.link}`}>JOGOS DE HOJE</Link>
-      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>BRASILEIRÃO SERIE A</Link>
-      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>COPA DO BRASIL</Link>
-      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>COPA LIBERTADORES</Link>
-      <Link to={`/campeonato/${campeonatos.id}`} className={`${mobile ? styles.linkMobile : styles.link}`}>COPA SUL-AMERICANA</Link>
+      {campeonatos.map((campeonato) => (<Link to={`/campeonato/${campeonato.id}`} className={`${mobile ? styles.linkMobile : styles.link}`} key={`campeonato-${campeonato.id}`}>{campeonato.nome}</Link>))}
     </nav>
   </header>
   </>

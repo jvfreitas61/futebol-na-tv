@@ -3,17 +3,18 @@ import styles from './ListaJogos.module.css'
 import Jogo from './Jogo';
 import GuiaJogos from './GuiaJogos';
 
-function ListaJogos({itemsArray}){
+function ListaJogos({itemsArray , logoCampeonato, type}){
+  console.log(logoCampeonato);
   /*const [jogos, setJogos] = useState([])*/
   
-  const dataAtual = new Date();
+  /*const dataAtual = new Date();
   console.log(dataAtual);
   const dia = dataAtual.getDate();
   console.log(dia)
   const mes = dataAtual.getMonth()+1;
   console.log(mes)
   const ano = dataAtual.getFullYear();
-  console.log(ano)
+  console.log(ano)*/
 
   /*useEffect(() => {
     fetch('http://localhost:3000/jogos', {
@@ -32,12 +33,14 @@ function ListaJogos({itemsArray}){
 
   return (
     <div>
-    <GuiaJogos />
+    
     <div className={styles.containerJogos}>
     <ul id='tabelaJogos' className={styles.tabelaJogos}>
       {itemsArray
-      .map((jogo) => (
-        <Jogo {...jogo} key={jogo.id}/>
+      .map((jogo, index) => (
+        type==="campeonato"?
+        <Jogo {...jogo} logoCampeonato={logoCampeonato} key={`jogo-${index}`}/>
+        : <Jogo {...jogo} key={`jogo-${index}`}/>
       ))}
     </ul>
     </div>

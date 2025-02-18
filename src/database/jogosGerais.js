@@ -3,7 +3,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Liga dos Campeões',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+      'https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png',
     horaJogo: '08:30',
     mandante: {
       nome: 'Real Madrid',
@@ -31,7 +31,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Liga dos Campeões',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+      'https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png',
     horaJogo: '13:30',
     mandante: {
       nome: 'Milan',
@@ -65,7 +65,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Copa Libertadores',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F76.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=256&s=2ab0b81cc9bd796bcfdab83ca39de279',
+      'https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/307px-Conmebol_Libertadores_logo.svg.png',
     horaJogo: '15:00',
     mandante: {
       nome: 'Fluminense',
@@ -93,7 +93,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Copa Libertadores',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F76.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=256&s=2ab0b81cc9bd796bcfdab83ca39de279',
+      'https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/307px-Conmebol_Libertadores_logo.svg.png',
     horaJogo: '15:45',
     mandante: {
       nome: 'River Plate',
@@ -122,7 +122,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Copa do Brasil',
     logoCampeonato:
-      'https://www.ogol.com.br//img/logos/competicoes/260_imgbank_cb_20180423113604.png',
+      'https://upload.wikimedia.org/wikipedia/pt/9/96/CopaDoBrasil.png',
     horaJogo: '16:00',
     mandante: {
       nome: 'SÃO PAULO',
@@ -150,7 +150,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Copa Sul-Americana',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F102.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=595afc1044cc9edaf4397fa025f16a0d',
+      'https://upload.wikimedia.org/wikipedia/pt/e/e4/Conmebol_Sudamericana_logo.png',
     horaJogo: '16:00',
     mandante: {
       nome: 'Nacional',
@@ -174,7 +174,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Copa Sul-Americana',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F102.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=595afc1044cc9edaf4397fa025f16a0d',
+      'https://upload.wikimedia.org/wikipedia/pt/e/e4/Conmebol_Sudamericana_logo.png',
     horaJogo: '17:30',
     mandante: {
       nome: 'Racing',
@@ -203,7 +203,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Campeonato Brasileiro',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F16.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=6ae2a36f82b5ab70ecb6829fefa65131',
+      'https://upload.wikimedia.org/wikipedia/pt/7/75/Campeonato_Brasileiro_de_Futebol_de_2024_-_S%C3%A9rie_A.png',
     horaJogo: '20:30',
     mandante: {
       nome: 'Palmeiras',
@@ -227,7 +227,7 @@ export const jogos = [
     dataJogo: '14/09/2024',
     campeonato: 'Campeonato Brasileiro',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F16.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=6ae2a36f82b5ab70ecb6829fefa65131',
+      'https://upload.wikimedia.org/wikipedia/pt/7/75/Campeonato_Brasileiro_de_Futebol_de_2024_-_S%C3%A9rie_A.png',
     horaJogo: '21:00',
     mandante: {
       nome: 'Botafogo',
@@ -252,102 +252,4 @@ export const jogos = [
       },
     ],
   },
-  {
-    dataJogo: "15/09/2024",
-    campeonato: 'Campeonato Italiano',
-    logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F13.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=d0d1091376e45b2c1fa9e7c03ed111fd',
-    horaJogo: "07:30",
-    mandante: {
-        "nome": "Genoa",
-        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Genoa_CFC_crest.svg/179px-Genoa_CFC_crest.svg.png"
-    },
-    visitante: {
-        "nome": "Roma",
-        "escudo": "https://upload.wikimedia.org/wikipedia/pt/8/8c/AS_Roma_logo.png"
-    },
-    transmissao: [{
-        "nomeCanal": "ESPN",
-        "link": "#",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-    },
-    {
-        "nomeCanal": "Disney+",
-        "link": "https://www.disneyplus.com/pt-br/home",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-    }]
-},
-{
-    "dataJogo": "15/09/2024",
-    campeonato: 'Premier League',
-    logoCampeonato:
-      'https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png',
-    "horaJogo": "10:00",
-    "mandante": {
-        "nome": "Tottenham",
-        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/117px-Tottenham_Hotspur.svg.png"
-    },
-    "visitante": {
-        "nome": "Arsenal",
-        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/204px-Arsenal_FC.svg.png"
-    },
-    "transmissao": [{
-        "nomeCanal": "ESPN",
-        "link": "#",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-    },
-    {
-        "nomeCanal": "Disney+",
-        "link": "https://www.disneyplus.com/pt-br/home",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-    }]
-},
-{
-    "dataJogo": "15/09/2024",
-    campeonato: 'LaLiga',
-    logoCampeonato:
-      'https://ssl.gstatic.com/onebox/media/sports/logos/U4pM4toWEW0Sr9NIhY_Lyw_64x64.png',
-    "horaJogo": "11:15",
-    "mandante": {
-        "nome": "Girona",
-        "escudo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/Girona_FC.png"
-    },
-    "visitante": {
-        "nome": "Barcelona",
-        "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/43/FCBarcelona.svg/237px-FCBarcelona.svg.png"
-    },
-    "transmissao": [{
-        "nomeCanal": "Disney+",
-        "link": "https://www.disneyplus.com/pt-br/home",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-    }]
-},
-{
-    "dataJogo": "15/09/2024",
-    campeonato: 'Campeonato Alemão',
-    logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F1.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=8bcfbab8a65ce56c70f22db3f663eea0',
-    "horaJogo": "12:30",
-    "mandante": {
-        "nome": "Mainz 05",
-        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/258px-Logo_Mainz_05.svg.png"
-    },
-    "visitante": {
-        "nome": "Werder Bremen",
-        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/159px-SV-Werder-Bremen-Logo.svg.png"
-    },
-    "transmissao": [{
-        "nomeCanal": "TV Cultura",
-        "link": "#",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cultura_logo_2013.svg/277px-Cultura_logo_2013.svg.png"
-    }, {
-        "nomeCanal": "SporTV",
-        "link": "#",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
-    },{
-        "nomeCanal": "OneFootball",
-        "link": "https://onefootball.com/en/tv-hub",
-        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/OneFootball_logo.svg/320px-OneFootball_logo.svg.png"
-    }]
-},
 ];
