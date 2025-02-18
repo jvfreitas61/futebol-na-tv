@@ -11,9 +11,9 @@ const App = () => {
     <BrowserRouter>
     <Header />
     <Routes>
-      <Route path='/futebol-na-tv/' end element={<Home />}/>
-      <Route path='/futebol-na-tv/campeonato/:id' element={<Campeonato />}/>
-      <Route path='/futebol-na-tv/jogo/:id' element={<PaginaJogo />}/>
+      <Route path='/' end element={<Home />}/>
+      <Route path='/campeonato/:id' element={<Campeonato />}/>
+      <Route path='/jogo/:id' element={<PaginaJogo />}/>
     </Routes>
     </BrowserRouter>
   </div>;
