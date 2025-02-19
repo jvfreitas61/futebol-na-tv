@@ -7,7 +7,7 @@ import {campeonatos} from "../database/campeonatos"
 
 const Header = () => {
 
-  const mobile = useMedia('(max-width: 800px)');
+  const mobile = useMedia('(max-width: 970px)');
   const [mobileMenu, setMobileMenu] = React.useState(false);
   const {pathname} = useLocation();
   React.useEffect(() => {
