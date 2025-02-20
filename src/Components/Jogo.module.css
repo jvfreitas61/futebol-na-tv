@@ -151,7 +151,7 @@ p{
   /*background-color: beige;*/
 }
 
-@media (max-width: 950px){
+@media (max-width: 916px){
   .jogo{
     min-width: 0px;
   }
