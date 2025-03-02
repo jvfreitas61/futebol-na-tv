@@ -4,7 +4,14 @@ import Jogo from './Jogo';
 import GuiaJogos from './GuiaJogos';
 
 function ListaJogos({itemsArray , logoCampeonato, type}){
-  console.log(logoCampeonato);
+  console.log(itemsArray);
+  
+  itemsArray
+      .map((jogo, index) => (
+        console.log(jogo.dataJogo)
+         
+      ))
+  
   /*const [jogos, setJogos] = useState([])*/
   
   /*const dataAtual = new Date();
@@ -33,7 +40,7 @@ function ListaJogos({itemsArray , logoCampeonato, type}){
 
   return (
     <div>
-    
+    <GuiaJogos/>
     <div className={styles.containerJogos}>
     <ul id='tabelaJogos' className={styles.tabelaJogos}>
       {itemsArray

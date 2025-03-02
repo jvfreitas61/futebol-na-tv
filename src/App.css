@@ -15,7 +15,7 @@
 }
 
 body, html{
-  background-color: #202020;
+  background-color: #fff;
   height: 100vh;
   
 }
@@ -34,17 +34,17 @@ li{
 
 .container {
   max-width: 1400px;
-  height: 100vh;
   margin: auto;
-  background: #202020;
+  background: #fff;
   padding: 20px;
+  
 }
 
-@media (max-width: 916px){
+@media (max-width: 970px){
   body{
     padding-top: 55px;
   }
   .container{
-    padding: 0px;
+    padding: 20px 0px;
   }
 }

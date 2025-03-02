@@ -46,7 +46,7 @@ const Header = () => {
     </menu>*/}
     <h1>GUIA DE JOGOS NA TV</h1>    
     <nav className={`${mobile ? styles.navMobile : styles.nav} ${mobileMenu && styles.navMobileAtivo}`}>
-      <Link to="/" end className={`${mobile ? styles.linkMobile : styles.link}`}>JOGOS DE HOJE</Link>
+      <Link to="/" end className={`${mobile ? styles.linkMobile : styles.link}`}>Agenda de Jogos</Link>
       {campeonatos.map((campeonato) => (<Link to={`/campeonato/${campeonato.id}`} className={`${mobile ? styles.linkMobile : styles.link}`} key={`campeonato-${campeonato.id}`}>{campeonato.nome}</Link>))}
     </nav>
   </header>

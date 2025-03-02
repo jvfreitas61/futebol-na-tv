@@ -1,8 +1,11 @@
 .containerJogos{
-  background-color: rgb(235, 235, 235);
+  /*background-color: rgb(235, 235, 235);*/
   max-width: 1280px;
   min-height: 710px;
   border-radius: 10px;
+  margin: 20px auto;
+  border: 1px solid rgb(235, 235, 235);
+  box-sizing: content-box;
 }
 
 .tabelaJogos{
@@ -13,11 +16,16 @@
 }
 
 @media (max-width: 916px){
-  .containerJogos{
-    border-radius: 0px;
-  }
-  
   .tabelaJogos{
     flex-flow: column;
+  }
+}
+
+@media (max-width: 970px){
+  .containerJogos{
+    border-radius: 0px;
+    background-color: #fff;
+    margin: 0px;
+    border: none;
   }
 }
