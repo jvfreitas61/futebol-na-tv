@@ -14,7 +14,7 @@ const Campeonato = () => {
 
   return (
     <section className="container">
-      <ListaJogos itemsArray={jogosCampeonato} logoCampeonato={campeonatoSel.logo} type="campeonato" />
+      <ListaJogos itemsArray={jogosCampeonato} logoCampeonato={campeonatoSel.logo} nomeCampeonato={campeonatoSel.nome} type="campeonato" />
     </section>
   );
 };

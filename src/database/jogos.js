@@ -1,80 +1,248 @@
 export const jogos = [
   {
-    dataJogo: '14/09/2024',
+    dataJogo: '11/03/2025',
     campeonato: 'Liga dos Campeões',
-    logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
-    horaJogo: '08:30',
-    mandante: {
-      nome: 'Real Madrid',
-      escudo: 'https://upload.wikimedia.org/wikipedia/pt/9/98/Real_Madrid.png',
-    },
-    visitante: {
-      nome: 'Manchester United',
-      escudo:
-        'https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/237px-Manchester_United_FC_crest.svg.png',
-    },
-    transmissao: [
-      {
-        nomeCanal: 'ESPN',
-        logoCanal:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png',
-      },
-      {
-        nomeCanal: 'Disney+',
-        logoCanal:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png',
-      },
-    ],
-  },
-  {
-    dataJogo: '14/09/2024',
-    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
     logoCampeonato:
       'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
     horaJogo: '13:30',
     mandante: {
-      nome: 'Milan',
-      escudo:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/153px-Logo_of_AC_Milan.svg.png',
+      nome: 'Barcelona',
+      escudo: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/237px-FC_Barcelona_%28crest%29.svg.png',
     },
     visitante: {
-      nome: 'Bayern de Munique',
+      nome: 'Benfica',
       escudo:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/240px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png',
+        'https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/242px-SL_Benfica_logo.svg.png',
     },
     transmissao: [
       {
-        nomeCanal: 'RedeTV!',
+        nomeCanal: 'TNT Sports',
         logoCanal:
-          'https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/320px-TNT_Sports_%282023%29.svg.png',
       },
       {
-        nomeCanal: 'CazéTV',
+        nomeCanal: 'HBO Max',
         logoCanal:
-          'https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png',
-      },
-      {
-        nomeCanal: 'OneFootball',
-        logoCanal:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/OFLOGO.png/320px-OFLOGO.png',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
       },
     ],
   },
   {
-    dataJogo: '14/09/2024',
-    campeonato: 'Copa Libertadores',
+    dataJogo: '11/03/2025',
+    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F76.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=256&s=2ab0b81cc9bd796bcfdab83ca39de279',
-    horaJogo: '15:00',
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+    horaJogo: '16:45',
     mandante: {
-      nome: 'Fluminense',
-      escudo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FFC_crest.svg/207px-FFC_crest.svg.png',
+      nome: 'Liverpool',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/176px-Liverpool_FC.svg.png',
     },
     visitante: {
-      nome: 'Boca Juniors',
+      nome: 'Paris Saint-Germain',
       escudo:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/203px-Boca_Juniors_logo18.svg.png',
+        'https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/240px-Paris_Saint-Germain_F.C..svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'TNT Sports',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/320px-TNT_Sports_%282023%29.svg.png',
+      },
+      {
+        nomeCanal: 'HBO Max',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '11/03/2025',
+    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+    horaJogo: '16:45',
+    mandante: {
+      nome: 'Inter de Milão',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/240px-FC_Internazionale_Milano_2021.svg.png',
+    },
+    visitante: {
+      nome: 'Feyenoord',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Feyenoord_logo_since_2024.svg/240px-Feyenoord_logo_since_2024.svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'Space',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/320px-SpaceLogo.svg.png',
+      },
+      {
+        nomeCanal: 'HBO Max',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '11/03/2025',
+    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+    horaJogo: '16:45',
+    mandante: {
+      nome: 'Bayer Leverkusen',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/310px-Bayer_04_Leverkusen_logo.svg.png',
+    },
+    visitante: {
+      nome: 'Bayern de Munique',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/240px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'HBO Max',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '12/03/2025',
+    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+    horaJogo: '13:30',
+    mandante: {
+      nome: 'Lille',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Lille_OSC_2018_logo.svg/252px-Lille_OSC_2018_logo.svg.png',
+    },
+    visitante: {
+      nome: 'Borussia Dortmund',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/240px-Borussia_Dortmund_logo.svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'TNT Sports',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/320px-TNT_Sports_%282023%29.svg.png',
+      },
+      {
+        nomeCanal: 'HBO Max',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '12/03/2025',
+    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+    horaJogo: '15:30',
+    mandante: {
+      nome: 'Atlético de Madrid',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/187px-Atletico_Madrid_Logo_2024.svg.png',
+    },
+    visitante: {
+      nome: 'Real Madrid',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/179px-Real_Madrid_CF.svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'HBO Max',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '12/03/2025',
+    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+    horaJogo: '16:45',
+    mandante: {
+      nome: 'Arsenal',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/204px-Arsenal_FC.svg.png',
+    },
+    visitante: {
+      nome: 'PSV Eindhoven',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/PSV_Eindhoven.svg/291px-PSV_Eindhoven.svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'TNT Sports',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/320px-TNT_Sports_%282023%29.svg.png',
+      },
+      {
+        nomeCanal: 'HBO Max',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '12/03/2025',
+    campeonato: 'Liga dos Campeões',
+    fase: 'Oitavas de Final',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=0fb210792a0a38f47fb2770cbe041f4c',
+    horaJogo: '16:45',
+    mandante: {
+      nome: 'Aston Villa',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aston_Villa_FC_new_crest.svg/177px-Aston_Villa_FC_new_crest.svg.png',
+    },
+    visitante: {
+      nome: 'Club Brugge',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Club_Brugge_KV_logo.svg/184px-Club_Brugge_KV_logo.svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'Space',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/320px-SpaceLogo.svg.png',
+      },
+      {
+        nomeCanal: 'HBO Max',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Max_logo.svg/320px-Max_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '12/03/2025',
+    campeonato: 'Copa Libertadores',
+    fase: 'Terceira fase',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F76.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=256&s=2ab0b81cc9bd796bcfdab83ca39de279',
+    horaJogo: '19:00',
+    mandante: {
+      nome: 'Cerro Porteño',
+      escudo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg/223px-Escudo_Club_Cerro_Porte%C3%B1o_2023-Actual.svg.png',
+    },
+    visitante: {
+      nome: 'Melgar',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fbc_melgar2183819381.jpg/240px-Fbc_melgar2183819381.jpg',
     },
     transmissao: [
       {
@@ -90,48 +258,20 @@ export const jogos = [
     ],
   },
   {
-    dataJogo: '14/09/2024',
-    campeonato: 'Copa Libertadores',
-    logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F76.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=256&s=2ab0b81cc9bd796bcfdab83ca39de279',
-    horaJogo: '15:45',
-    mandante: {
-      nome: 'River Plate',
-      escudo:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Escudo_del_C_A_River_Plate.svg/194px-Escudo_del_C_A_River_Plate.svg.png',
-    },
-    visitante: {
-      nome: 'Peñarol',
-      escudo:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Escudo_de_Pe%C3%B1arol.svg/180px-Escudo_de_Pe%C3%B1arol.svg.png',
-    },
-    transmissao: [
-      {
-        nomeCanal: 'ESPN',
-        logoCanal:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png',
-      },
-      {
-        nomeCanal: 'Disney+',
-        logoCanal:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png',
-      },
-    ],
-  },
-  {
-    dataJogo: '14/09/2024',
+    dataJogo: '12/03/2025',
     campeonato: 'Copa do Brasil',
+    fase: 'Segunda fase',
     logoCampeonato:
       'https://www.ogol.com.br//img/logos/competicoes/260_imgbank_cb_20180423113604.png',
-    horaJogo: '16:00',
+    horaJogo: '19:00',
     mandante: {
-      nome: 'SÃO PAULO',
+      nome: 'Vitória',
       escudo:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/241px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png',
+        'https://upload.wikimedia.org/wikipedia/en/5/58/Esporte_Clube_Vit%C3%B3ria.png',
     },
     visitante: {
-      nome: 'FLAMENGO',
-      escudo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/194px-Flamengo_braz_logo.svg.png',
+      nome: 'Náutico',
+      escudo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Clube_N%C3%A1utico_Capibaribe_%282010%29.svg/240px-Clube_N%C3%A1utico_Capibaribe_%282010%29.svg.png',
     },
     transmissao: [
       {
@@ -147,10 +287,70 @@ export const jogos = [
     ],
   },
   {
-    dataJogo: '14/09/2024',
-    campeonato: 'Copa Sul-Americana',
+    dataJogo: '12/03/2025',
+    campeonato: 'Copa do Brasil',
+    fase: 'Segunda fase',
     logoCampeonato:
-      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F102.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=595afc1044cc9edaf4397fa025f16a0d',
+      'https://www.ogol.com.br//img/logos/competicoes/260_imgbank_cb_20180423113604.png',
+    horaJogo: '19:30',
+    mandante: {
+      nome: 'Athletic',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Athletic_Club_%28Minas_Gerais%29.svg/240px-Athletic_Club_%28Minas_Gerais%29.svg.png',
+    },
+    visitante: {
+      nome: 'Grêmio',
+      escudo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/201px-Gremio_logo.svg.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'Amazon Prime Video',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg',
+      },
+      {
+        nomeCanal: 'Disney+',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '12/03/2025',
+    campeonato: 'Copa Libertadores',
+    fase: 'Terceira fase',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F76.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=256&s=2ab0b81cc9bd796bcfdab83ca39de279',
+    horaJogo: '21:30',
+    mandante: {
+      nome: 'Corinthians',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Sport_Club_Corinthians_Paulista_crest.svg/192px-Sport_Club_Corinthians_Paulista_crest.svg.png',
+    },
+    visitante: {
+      nome: 'Barcelona',
+      escudo:
+        'https://upload.wikimedia.org/wikipedia/commons/7/78/Barcelona_SC.png',
+    },
+    transmissao: [
+      {
+        nomeCanal: 'ESPN',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png',
+      },
+      {
+        nomeCanal: 'Disney+',
+        logoCanal:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png',
+      },
+    ],
+  },
+  {
+    dataJogo: '12/03/2025',
+    campeonato: 'Campeonato Carioca',
+    fase: 'Final',
+    logoCampeonato:
+      'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F162.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=3c9a91b2149d910c1dbdf9a1dc82932e',
     horaJogo: '16:00',
     mandante: {
       nome: 'Nacional',
@@ -173,6 +373,7 @@ export const jogos = [
   {
     dataJogo: '14/09/2024',
     campeonato: 'Copa Sul-Americana',
+    fase: 'Segunda rodada',
     logoCampeonato:
       'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F102.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=595afc1044cc9edaf4397fa025f16a0d',
     horaJogo: '17:30',
@@ -202,6 +403,7 @@ export const jogos = [
   {
     dataJogo: '14/09/2024',
     campeonato: 'Campeonato Brasileiro',
+    fase: '14ª rodada',
     logoCampeonato:
       'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F16.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=6ae2a36f82b5ab70ecb6829fefa65131',
     horaJogo: '20:30',
@@ -226,6 +428,7 @@ export const jogos = [
   {
     dataJogo: '14/09/2024',
     campeonato: 'Campeonato Brasileiro',
+    fase: '25ª rodada',
     logoCampeonato:
       'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F16.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=6ae2a36f82b5ab70ecb6829fefa65131',
     horaJogo: '21:00',
@@ -255,6 +458,7 @@ export const jogos = [
   {
     dataJogo: "15/09/2024",
     campeonato: 'Campeonato Italiano',
+    fase: 'Prima ronda',
     logoCampeonato:
       'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F13.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=d0d1091376e45b2c1fa9e7c03ed111fd',
     horaJogo: "07:30",
@@ -280,6 +484,7 @@ export const jogos = [
 {
     "dataJogo": "15/09/2024",
     campeonato: 'Premier League',
+    fase: '4th round',
     logoCampeonato:
       'https://ssl.gstatic.com/onebox/media/sports/logos/5D811WOqeV3SRG6qt-DDPA_64x64.png',
     "horaJogo": "10:00",
@@ -305,6 +510,7 @@ export const jogos = [
 {
     "dataJogo": "15/09/2024",
     campeonato: 'LaLiga',
+    fase: '5 rondada',
     logoCampeonato:
       'https://ssl.gstatic.com/onebox/media/sports/logos/U4pM4toWEW0Sr9NIhY_Lyw_64x64.png',
     "horaJogo": "11:15",
@@ -325,6 +531,7 @@ export const jogos = [
 {
     "dataJogo": "15/09/2024",
     campeonato: 'Campeonato Alemão',
+    fase: '13a rod',
     logoCampeonato:
       'https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F1.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=128&s=8bcfbab8a65ce56c70f22db3f663eea0',
     "horaJogo": "12:30",
