@@ -9,8 +9,9 @@
 }
 
 .tabelaJogos{
-  display: flex;
-  flex-flow: wrap;
+  display: grid;
+  /*flex-flow: wrap;*/
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
   gap: 20px;
 }
@@ -34,19 +35,24 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 970px){
+@media (max-width: 1340px){
+  .tabelaJogos{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+@media (max-width: 740px){
+  .tabelaJogos{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 980px){
   .guia{
     margin: auto 20px;
   }
-}
-
-@media (max-width: 916px){
-  .tabelaJogos{
-    flex-flow: column;
-  }
-}
-
-@media (max-width: 970px){
   .containerJogos{
     border-radius: 0px;
     background-color: #fff;

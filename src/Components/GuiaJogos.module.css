@@ -48,7 +48,7 @@
   color: var(--azul-marinho);
 }
 
-@media (max-width: 970px){
+@media (max-width: 980px){
   .guia{
     margin: auto 20px;
   }
