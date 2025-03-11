@@ -16,7 +16,7 @@ function ListaJogos({itemsArray , nomeCampeonato ,logoCampeonato, type}){
     <div className={styles.containerJogos}>
     <ul id='tabelaJogos' className={styles.tabelaJogos}>
       {itemsArray
-      .filter((jogo, index) => (jogo.dataJogo === '12/03/2025'))
+      /*.filter((jogo, index) => (jogo.dataJogo === '12/03/2025'))*/
       .map((jogo, index) => (
         
         type==="campeonato"?
